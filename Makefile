@@ -7,9 +7,7 @@ CC = gcc
 CFLAGS  = -g -Wall
 
 # the build target executable:
-TARGET = problem1
-
-all: $(TARGET)
+all: problem1 problem2
 
 $(TARGET): $(TARGET).c
 	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).c
