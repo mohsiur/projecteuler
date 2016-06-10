@@ -7,7 +7,7 @@ CC = gcc
 CFLAGS  = -g -Wall
 
 # the build target executable:
-TARGET = solution
+TARGET = problem1
 
 all: $(TARGET)
 
