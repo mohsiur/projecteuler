@@ -8,7 +8,8 @@ CFLAGS=-g -Wall
 LIBS=-lm
 
 # the build target executable:
-all: problem1 problem2 problem3
+all: problem1 problem2 problem3 problem6
+
 $(TARGET): $(TARGET).c
 	$(CC) -o $(TARGET) $(TARGET).o $(TARGET).c $(CFLAGS)
 
